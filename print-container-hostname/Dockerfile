@@ -1,4 +1,4 @@
-FROM node:7
+FROM node:7-alpine
 WORKDIR /data
 ADD . /data
 RUN npm i
