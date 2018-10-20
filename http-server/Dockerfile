@@ -1,4 +1,4 @@
-FROM node:6-alpine
+FROM node:10-alpine
 MAINTAINER Nick Sterling <nicholas.v.sterling@gmail.com>
 RUN npm i -g http-server
 WORKDIR /data
