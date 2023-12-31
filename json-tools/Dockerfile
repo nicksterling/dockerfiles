@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM node:20-alpine
 RUN apk add --update jq bash && rm -rf /var/cache/apk/*
 RUN npm i -g csv2json csvtojson jsonlint fast-csv j xml2json-command generate-schema
 WORKDIR /data

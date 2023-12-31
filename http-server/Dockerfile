@@ -1,5 +1,4 @@
-FROM node:10-alpine
-MAINTAINER Nick Sterling <nicholas.v.sterling@gmail.com>
+FROM node:20-alpine
 RUN apk upgrade && rm -rf /var/cache/apk/*
 RUN npm i -g http-server
 WORKDIR /data
